@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
+	<title>Sedona</title>
+</head>
+
+<body>
+	<div class="main-container">
+		<div class="main-header">
+				<ul class="main-navigation">
+					<li><a href="#">Информация</a></li>
+					<li><a href="#">Фото и видео</a></li>
+					<li class="logo"><a href="#">Logo</a></li>
+					<li><a href="#">Карта штата</a></li>
+					<li><a href="#">Гостиницы</a></li>
+				</ul>
+			<img class="header-image" src="img/header-image2.png" height="512" alt="sedona">
+		</div>
+		<div class="container">
+			<div class="main-content-title">
+				<h1>СЕДОНА — небольшой городок в Аризоне, заслуживающий большего!</h1>
+				<p>Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
+			</div>
+			<div class="common-row row1">
+				<div class="content-square">
+					<div class="square-title">Настоящий городок</div>
+					<span>- №1 -</span>
+					<p>Седона не атракцион для туристов, там течет своя жизнь</p>
+				</div>
+				<div class="image-wrapper">
+					<img  class="rectangle" src="img/row1-image.jpg" alt="row-image1" height="auto" width="100%">
+				</div>
+			</div>
+			<div class="big-row">
+				<div class="big-row-square">
+					<div class="square-image"></div>
+					<div class="square-title">Жилье</div>
+					<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+				</div>
+				<div class="big-row-square">
+					<div class="square-image"></div>
+					<div class="square-title">Еда</div>
+					<p>Всегда заказывай фирменный бургер, вы не разочаруетесь!</p>
+				</div>
+				<div class="big-row-square">
+					<div class="square-image"></div>
+					<div class="square-title">Сувениры</div>
+					<p>Не только китайского, но и местного производства!</p>
+				</div>
+			</div>
+			<div class="common-row row3">
+				<div class="image-wrapper">
+					<img  class="rectangle" src="img/row3-image.jpg" alt="row-image1" height="auto" width="100%">
+				</div>
+				<div class="content-square">
+					<div class="square-title">Там есть мост дьявола</div>
+					<span>- №2 -</span>
+					<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+				</div>
+			</div>
+			<div class="common-row row4">
+				<div class="content-square">
+					<div class="square-title">Небольшая площадь</div>
+					<span>- №3 -</span>
+					<p>Все достопримеча&shy;тельности находятся очень близко</p>
+				</div>
+				<div class="content-square">
+					<div class="square-title">Красивая дорога</div>
+					<span>- №4 -</span>
+					<p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+				</div>
+				<div class="content-square">
+					<div class="square-title">Мало туристов</div>
+					<span>- №5 -</span>
+					<p>Большинство едет в гранд каньон и толпится там</p>
+				</div>
+			</div>
+
+
+			<div class="hotel-search-title">
+				<div>Заинтересовались?</div>
+				<p>Укажите предполагаемые даты поездки <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			</div>
+
+
+
+            <div class="map-form-footer-wrapper">
+				<form action="echo" class="hotel-search">
+					<div class="form-title">Поиск гостиницы в седоне</div>
+					<div class="form-content">
+						<div class="arrival-wrapper">
+							<label for="arrival-date">Дата заезда:</label>
+							<input id="arrival-date" type="date" name="guest-arrival">
+						</div>
+						<div class="departure-wrapper">
+							<label for="departure-date">Дата выезда:</label>
+							<input id="departure-date" type="date" name="guest-departure">
+						</div>
+						<div class="adults-wrapper">
+							<label for="adults-number">Взрослые:</label>
+							<input id="adults-number" type="number" name="adults-quantity" value="2" min="0">
+						</div>
+						<div class="children-wrapper">
+							<label for="children-number">Дети:</label>
+							<input id="children-number" type="number" name="children-quantity" value="0" min="0">
+						</div>
+					</div>
+					<button type="submit" name="search-form-submit">Найти</button>
+				</form>
+				<!---------------------- ФУТЕР -------------------->
+				<div class="main-footer">
+					<div class="hashtag">#VisitSedona</div>
+					<div class="social-buttons">
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+					<div class="copyrights">Visited by <a href="#"></a> for <a href="#"></a></div>
+				</div>
+            </div>
+		</div>
+	</div>
+
+</body>
+</html>
